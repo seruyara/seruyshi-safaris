@@ -1,8 +1,17 @@
+import Footer from "../components/layout/Footer";
+import AboutUs from "../components/sections/Aboutus";
+import Destinations from "../components/sections/destinations/Destinations";
+import Homepage from "../components/sections/Homepage";
+import Plansafari from "../components/sections/Plansafari";
+
 export default function Home() {
   return (
     <main>
-      <h1>Experience Africa</h1>
-      <p>Luxury Safaris Tailored for You</p>
+      <Homepage/>
+      <Destinations/>
+      <AboutUs/>
+      <Plansafari/>
+      <Footer/>
     </main>
   );
 }
