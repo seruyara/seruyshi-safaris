@@ -5,7 +5,7 @@ const SouthAfrica = () => {
   return (
     <section className="destination-section">
       <div className="destination-info">
-        <h2>South Africa 🇿🇦</h2>
+        <h2>South Africa </h2>
         <p>
           A World Within One Country.Combine exceptional wildlife with cosmopolitan cities,
           wine country, dramatic coastlines, and world-class hospitality. 

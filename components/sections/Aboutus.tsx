@@ -1,88 +1,137 @@
+import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <section className="about-section">
+    <section id="about" className="about-section">
 
-  <div className="about-intro">
+      {/* Intro */}
+      <div className="about-intro">
+        <p className="section-label">ABOUT SERUYSHI</p>
 
-    <div className="about-label">
-      <span>ABOUT SERUYSHI</span>
-    </div>
+        <h2>
+          Travel Africa,
+          <br />
+          your way.
+        </h2>
 
-    <div className="about-heading">
-      <h2>
-        Africa is not just<br />
-        a destination.
-      </h2>
-
-      <p className="about-lead">
-        It's a story waiting to become yours.
-      </p>
-    </div>
-
-  </div>
+        <p className="about-intro-text">
+          Seruyshi Signature Safaris is a Kenyan-based bespoke tours and travel
+          company created to share the beauty of Africa through thoughtfully
+          designed luxury journeys.
+        </p>
+      </div>
 
 
-  <div className="about-main">
+      {/* Founder */}
+      <div className="about-founder">
 
-    <div className="about-image-large">
-      <img
-        src="/images/experience.jpg"
-        alt="Safari experience in Africa"
-      />
-    </div>
+       <div className="about-founder-image">
+        <Image
+           src="/images/about-us/about-us.jpg"
+           alt="Founder of Seruyshi Signature Safaris"
+            width={800}
+          height={1000}
+         />
+</div>
+        <div className="about-founder-content">
+
+          <p className="section-label">THE FOUNDER</p>
+
+          <h3>
+            Founded in Kenya.
+            <br />
+            Built around people.
+          </h3>
+
+          <p>
+            Seruyshi Signature Safaris was founded in Kenya by a tours and travel
+            professional with over 21 years of experience working closely
+            with clients and creating experiences tailored to their
+            individual needs.
+          </p>
+
+          <p>
+            That experience shaped the way we believe travel should feel:
+            personal, comfortable and thoughtfully taken care of.
+          </p>
+
+          <div className="founder-experience">
+            <span>21+</span>
+            <p>Years of experience creating experiences around people.</p>
+          </div>
+
+        </div>
+
+      </div>
 
 
-    <div className="about-story">
+      {/* Who We Are */}
+      <div className="about-who-we-are">
 
-      <h3>
-        Travel, thoughtfully designed.
-      </h3>
+        <div className="about-who-heading">
+          <p className="section-label">WHO WE ARE</p>
 
-      <p>
-        At Seruyshi Signature Safaris, we believe that
-        the best journeys are personal.
-      </p>
+          <h3>
+            Africa deserves
+            <br />
+            to be experienced.
+          </h3>
+        </div>
 
-      <p>
-        From the landscapes you dream of waking up to,
-        to the experiences you want to remember long
-        after you've returned home, we take the time to
-        understand what makes a journey meaningful to you.
-      </p>
+        <div className="about-who-content">
 
-      <p>
-        Whether it's your first safari, a celebration,
-        a family adventure, or simply time to reconnect,
-        we create experiences around you.
-      </p>
+          <p>
+            We created Seruyshi to show the world the Africa we know and
+            love, from its incredible wildlife and landscapes to its diverse
+            cultures and coastlines.
+          </p>
 
-    </div>
+          <p>
+            Whether you're planning your first safari, a family holiday, a
+            celebration or simply an escape, we create your journey around
+            you.
+          </p>
 
-  </div>
+        </div>
+
+      </div>
 
 
-  <div className="about-bottom">
+      {/* Our Values */}
+      <div className="about-values">
 
-    <div className="about-quote">
-      <p>
-        One continent.<br />
-        Endless possibilities.<br />
-        Your story. Our signature.
-      </p>
-    </div>
+        <div className="about-value">
+          <h4>Personal</h4>
+          <p>Your itinerary is designed around you.</p>
+        </div>
 
-    <div className="about-image-small">
-      <img
-        src="/images/landscape.jpg"
-        alt="African landscape"
-      />
-    </div>
+        <div className="about-value">
+          <h4>Comfort</h4>
+          <p>Travel beautifully and at your own pace.</p>
+        </div>
 
-  </div>
+        <div className="about-value">
+          <h4>Care</h4>
+          <p>You enjoy the journey. We take care of the details.</p>
+        </div>
 
-</section>
-  )
-}
+        <div className="about-value">
+          <h4>Africa</h4>
+          <p>Discover the continent beyond the ordinary.</p>
+        </div>
 
-export default AboutUs
+      </div>
+
+       <div className="about-closing">
+  <p>Your journey. Your pace. Our signature.</p>
+
+  <a href="#plan-safari" className="about-button">
+    Start Your Journey
+  </a>
+</div>
+
+    </section>
+  );
+};
+
+export default AboutUs;

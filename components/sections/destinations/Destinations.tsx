@@ -31,7 +31,7 @@ const Destinations = () => {
       {selectedCountry === "all" && (
         <section className="destination-section">
           <div className="destination-info">
-            <h2>All Places 🌍</h2>
+            <h2>All Places </h2>
 
             <p>
               Your Africa, Your Way. Whether you dream of tracking gorillas

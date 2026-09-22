@@ -6,7 +6,7 @@ const Botsawna = () => {
   return (
     <section className="destination-section">
       <div className="destination-info">
-        <h2>Botswana 🇧🇼</h2>
+        <h2>Botswana </h2>
         <p>
           Untamed. Exclusive. Extraordinary.Explore the Okavango Delta, Chobe,
           and the vast wilderness of Botswana through intimate safari experiences designed around exclusivity,

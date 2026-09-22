@@ -5,7 +5,7 @@ const Uganda = () => {
   return (
     <section className="destination-section">
       <div className="destination-info">
-        <h2>Uganda 🇺🇬</h2>
+        <h2>Uganda</h2>
         <p>
           The Pearl of Africa. Discover lush forests, 
           spectacular landscapes, mountain gorillas, chimpanzees, 

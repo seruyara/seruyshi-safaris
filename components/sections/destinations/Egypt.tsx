@@ -5,7 +5,7 @@ const Egypt = () => {
   return (
     <section className="destination-section">
       <div className="destination-info">
-        <h2>Egypt 🇪🇬</h2>
+        <h2>Egypt </h2>
         <p>
           Where History Comes Alive.From the pyramids of Giza and the temples of Luxor to the Nile and the Red Sea,
           Egypt offers a journey through thousands of years of history, culture,

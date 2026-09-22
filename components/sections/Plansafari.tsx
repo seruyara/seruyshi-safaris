@@ -1,7 +1,14 @@
+import Image from "next/image";
 
 const Plansafari = () => {
   return (
     <section className="plan-safari-section">
+       <Image
+        src="/images/plan-safari/plan-safari.jpg"
+        alt="Luxury safari experience in Africa"
+        fill
+        className="plan-safari-background"
+      />
 
       <div className="plan-safari-intro">
         <p className="plan-safari-label">Plan Your Safari</p>

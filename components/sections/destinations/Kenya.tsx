@@ -5,7 +5,7 @@ const Kenya = () => {
   return (
     <section className="destination-section">
       <div className="destination-info">
-        <h2>Kenya 🇰🇪</h2>
+        <h2>Kenya </h2>
         <p>
           The heart of the safari. Discover vast landscapes,
           incredible wildlife and unforgettable experiences.

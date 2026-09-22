@@ -5,7 +5,7 @@ const Rwanda = () => {
   return (
     <section className="destination-section">
       <div className="destination-info">
-        <h2>Rwanda 🇷🇼</h2>
+        <h2>Rwanda </h2>
         <p>
           Luxury in the Land of a Thousand Hills.Journey through Rwanda's 
           beautiful highlands and ancient forests for an unforgettable encounter with mountain gorillas, 

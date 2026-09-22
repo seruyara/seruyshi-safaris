@@ -5,7 +5,7 @@ const Seychelles = () => {
   return (
    <section className="destination-section">
       <div className="destination-info">
-        <h2>Seychelles 🇸🇨</h2>
+        <h2>Seychelles </h2>
         <p>
           Barefoot Luxury in Paradise.Escape to a world of white-sand beaches, turquoise waters,
           private island retreats, and secluded luxury.

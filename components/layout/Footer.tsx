@@ -1,9 +1,17 @@
-// import Icon from "@/components/ui/icons";
-// import { faInstagram,faFacebookF,faTiktok } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 const Footer = () => {
   return (
     <footer className="footer">
+
+      <Image
+        src="/footer/footer.jpg"
+        alt="African sunset"
+        fill
+        className="footer-background"
+      />
+
+      <div className="footer-overlay"></div>
 
       <div className="footer-content">
 
@@ -38,27 +46,24 @@ const Footer = () => {
             </div>
           </div>
 
-
           {/* About */}
           <div className="footer-column">
             <h3>About</h3>
 
             <a href="#">Our Story</a>
             <a href="#">Experiences</a>
-            <a href="#">Why Seruyshi</a>
+            {/* <a href="#">Why Seruyshi</a> */}
           </div>
-
 
           {/* Explore */}
           <div className="footer-column">
             <h3>Explore</h3>
 
             <a href="#">Destinations</a>
-            <a href="/kenya">AboutUs</a>
-            <a href="#">Expiereiences</a>
-            <a href="#">PlanYourSafari</a>
+            {/* <a href="/kenya">About Us</a> */}
+            <a href="#">Experiences</a>
+            <a href="#">Plan Your Safari</a>
           </div>
-
 
           {/* Contact */}
           <div className="footer-column">
@@ -79,17 +84,16 @@ const Footer = () => {
 
         </div>
 
-
         {/* Bottom */}
         <div className="footer-bottom">
 
-          <p >
+          <p>
             © 2026 Seruyshi Signature Safaris
           </p>
 
           <div className="footer-legal">
-            <a  href="#">Privacy Policy</a>
-            <a  href="#">Terms & Conditions</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
           </div>
 
         </div>

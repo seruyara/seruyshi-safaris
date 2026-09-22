@@ -5,7 +5,7 @@ const Tanzania = () => {
   return (
    <section className="destination-section">
       <div className="destination-info">
-        <h2>Tanzania 🇹🇿 </h2>
+        <h2>Tanzania</h2>
         <p>
           Where the Wild Roams Free. Experience the vast Serengeti,
           the Ngorongoro Crater, Tarangire, and the beaches of Zanzibar.

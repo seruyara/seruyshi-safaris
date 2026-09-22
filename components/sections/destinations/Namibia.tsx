@@ -5,7 +5,7 @@ const Namibia = () => {
   return (
     <section className="destination-section">
       <div className="destination-info">
-        <h2>Namibia 🇳🇦</h2>
+        <h2>Namibia </h2>
         <p>
           Where the Desert Meets the Wild.From the towering dunes of Sossusvlei
           to the rugged Skeleton Coast and wildlife-rich Etosha, Namibia offers extraordinary landscapes,
