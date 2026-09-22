@@ -61,7 +61,7 @@ const Footer = () => {
 
             <a href="#">Destinations</a>
             {/* <a href="/kenya">About Us</a> */}
-            <a href="#">Experiences</a>
+            {/* <a href="#">Experiences</a> */}
             <a href="#">Plan Your Safari</a>
           </div>
 
