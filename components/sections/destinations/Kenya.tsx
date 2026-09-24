@@ -1,5 +1,6 @@
 import Icon from "../../icons";
 import { faLocationDot,faPersonHiking } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
 
 const Kenya = () => {
   return (
@@ -36,52 +37,71 @@ const Kenya = () => {
         </div>
       </div>
       
-      <div className="destination-locations">
-        <div className="destination-cards">
-          <div className="destination-card">
-            <img
-              src="/images/lion.jpg"
-              alt="Maasai Mara"
-            />
-            <p>Maasai Mara</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/elephants-car.jpg"
-              alt="Amboseli"
-            />
-            <p>Amboseli</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/rhino.jpg"
-              alt="Laikipia and Lewa"
-            />
-            <p>Laikipia & Lewa</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/leo.jpg"
-              alt="Samburu"
-            />
-            <p>Samburu</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="images/hotair baloon.jpg"
-              alt="Diani and the Kenyan Coast"
-            />
-            <p>Diani & the Kenyan Coast</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/dry water.jpg"
-              alt="Lamu"
-            />
-            <p>Lamu</p>
-          </div>
-        </div>
-      </div>
+     <div className="destination-locations">
+  <div className="destination-cards">
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/lion.jpg"
+        alt="Maasai Mara"
+        width={800}
+        height={600}
+      />
+      <p>Maasai Mara</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Amboseli.jpeg"
+        alt="Amboseli"
+        width={800}
+        height={600}
+      />
+      <p>Amboseli</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/samburu.jpeg"
+        alt="Samburu"
+        width={800}
+        height={600}
+      />
+      <p>Samburu</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Laikipia2.jpeg"
+        alt="Laikipia"
+        width={800}
+        height={600}
+      />
+      <p>Laikipia</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/kenyan-coast.jpg"
+        alt="Diani and the Kenyan Coast"
+        width={800}
+        height={600}
+      />
+      <p>Diani & the Kenyan Coast</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Nairobi.jpeg"
+        alt="Nairobi"
+        width={800}
+        height={600}
+      />
+      <p>Nairobi</p>
+    </div>
+
+  </div>
+
+</div>
     </section>
   );
 };

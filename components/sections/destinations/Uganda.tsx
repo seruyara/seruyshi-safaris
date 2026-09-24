@@ -1,5 +1,7 @@
 import Icon from "../../icons";
 import { faLocationDot,faPersonHiking } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+
 
 const Uganda = () => {
   return (
@@ -23,7 +25,7 @@ const Uganda = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>6 Locations</p>
+          <p>5 Locations</p>
         </div>
 
         <div className="destination-stat">
@@ -36,52 +38,64 @@ const Uganda = () => {
         </div>
       </div>
 
-      <div className="destination-locations">
-        <div className="destination-cards">
-          <div className="destination-card">
-            <img
-              src="/images/lion.jpg"
-              alt="Maasai Mara"
-            />
-            <p>Maasai Mara</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/elephants-car.jpg"
-              alt="Amboseli"
-            />
-            <p>Amboseli</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/rhino.jpg"
-              alt="Laikipia and Lewa"
-            />
-            <p>Laikipia & Lewa</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/leo.jpg"
-              alt="Samburu"
-            />
-            <p>Samburu</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="images/hotair baloon.jpg"
-              alt="Diani and the Kenyan Coast"
-            />
-            <p>Diani & the Kenyan Coast</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/dry water.jpg"
-              alt="Lamu"
-            />
-            <p>Lamu</p>
-          </div>
-        </div>
-      </div>
+     <div className="destination-locations">
+
+  <div className="destination-cards">
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Entebe.jpeg"
+        alt="Entebe"
+        width={800}
+        height={600}
+      />
+      <p>Entebe</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Bwindi.jpeg"
+        alt="Bwindi"
+        width={800}
+        height={600}
+      />
+      <p>Bwindi</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Queen Elizabeth2.jpeg"
+        alt="Queen Elizabeth"
+        width={800}
+        height={600}
+      />
+      <p>Queen Elizabeth</p>
+    </div>
+
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Murchison Falls.jpeg"
+        alt="Murchison Falls"
+        width={800}
+        height={600}
+      />
+      <p>Murchison Falls</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Kibale.jpeg"
+        alt="Kibale"
+        width={800}
+        height={600}
+      />
+      <p>Kibale</p>
+    </div>
+
+  </div>
+
+</div>
     </section>
   );
 };

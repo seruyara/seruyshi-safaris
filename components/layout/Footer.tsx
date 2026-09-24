@@ -27,7 +27,7 @@ const Footer = () => {
             />
 
             <p>
-              Curating unforgettable journeys across Africa,
+              Curating unforgettable bespoke journeys across Africa,
               where wild landscapes, culture and luxury meet.
             </p>
 
@@ -50,8 +50,8 @@ const Footer = () => {
           <div className="footer-column">
             <h3>About</h3>
 
-            <a href="#">Our Story</a>
-            <a href="#">Experiences</a>
+            <a href="#about">Our Story</a>
+            <a href="#experiences">Experiences</a>
             {/* <a href="#">Why Seruyshi</a> */}
           </div>
 
@@ -59,10 +59,8 @@ const Footer = () => {
           <div className="footer-column">
             <h3>Explore</h3>
 
-            <a href="#">Destinations</a>
-            {/* <a href="/kenya">About Us</a> */}
-            {/* <a href="#">Experiences</a> */}
-            <a href="#">Plan Your Safari</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#plan-safari">Plan Your Safari</a>
           </div>
 
           {/* Contact */}

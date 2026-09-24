@@ -1,5 +1,7 @@
 import Icon from "../../icons";
 import { faLocationDot,faPersonHiking } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+
 
 const Egypt = () => {
   return (
@@ -20,7 +22,7 @@ const Egypt = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>6 Locations</p>
+          <p>5 Locations</p>
         </div>
 
         <div className="destination-stat">
@@ -34,52 +36,63 @@ const Egypt = () => {
 
       </div>
 
-      <div className="destination-locations">
-        <div className="destination-cards">
-          <div className="destination-card">
-            <img
-              src="/images/lion.jpg"
-              alt="Maasai Mara"
-            />
-            <p>Maasai Mara</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/elephants-car.jpg"
-              alt="Amboseli"
-            />
-            <p>Amboseli</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/rhino.jpg"
-              alt="Laikipia and Lewa"
-            />
-            <p>Laikipia & Lewa</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/leo.jpg"
-              alt="Samburu"
-            />
-            <p>Samburu</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="images/hotair baloon.jpg"
-              alt="Diani and the Kenyan Coast"
-            />
-            <p>Diani & the Kenyan Coast</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/dry water.jpg"
-              alt="Lamu"
-            />
-            <p>Lamu</p>
-          </div>
-        </div>
-      </div>
+     <div className="destination-locations">
+
+  <div className="destination-cards">
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Cairo2.jpeg"
+        alt="Cairo"
+        width={800}
+        height={600}
+      />
+      <p>Cairo</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Giza.jpeg"
+        alt="Giza"
+        width={800}
+        height={600}
+      />
+      <p>Giza</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Luxor.jpeg"
+        alt="Luxor"
+        width={800}
+        height={600}
+      />
+      <p>Luxor</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Nile.jpeg"
+        alt="Nile"
+        width={800}
+        height={600}
+      />
+      <p>Nile</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Western Desert2.jpeg"
+        alt="Western Desert"
+        width={800}
+        height={600}
+      />
+      <p>Western Desert</p>
+    </div>
+
+  </div>
+
+</div>
     </section>
   )
 }

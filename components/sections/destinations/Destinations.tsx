@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 import { useState } from "react";
 import Icon from "../../icons";
@@ -73,58 +74,72 @@ const Destinations = () => {
           </div>
 
           <div className="destination-locations">
-            <div className="destination-cards">
 
-              <div className="destination-card">
-                <img
-                  src="/images/lion.jpg"
-                  alt="Maasai Mara"
-                />
-                <p>Maasai Mara</p>
-              </div>
+  <div className="destination-cards">
 
-              <div className="destination-card">
-                <img
-                  src="/images/elephants-car.jpg"
-                  alt="Amboseli"
-                />
-                <p>Amboseli</p>
-              </div>
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Volcanoes NP2.jpeg"
+        alt="Volcanoes NP2"
+        width={800}
+        height={600}
+      />
+      <p>Volcanoes NP, Rwanda</p>
+    </div>
 
-              <div className="destination-card">
-                <img
-                  src="/images/rhino.jpg"
-                  alt="Laikipia and Lewa"
-                />
-                <p>Laikipia & Lewa</p>
-              </div>
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Masaai Mara2.jpg"
+        alt="Amboseli"
+        width={800}
+        height={600}
+      />
+      <p>Masaai Mara, Kenya</p>
+    </div>
 
-              <div className="destination-card">
-                <img
-                  src="/images/leo.jpg"
-                  alt="Samburu"
-                />
-                <p>Samburu</p>
-              </div>
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Tarangire2.jpeg"
+        alt="Tarangire"
+        width={800}
+        height={600}
+      />
+      <p>Tarangire, Tanzania</p>
+    </div>
 
-              <div className="destination-card">
-                <img
-                  src="/images/hotair baloon.jpg"
-                  alt="Diani and the Kenyan Coast"
-                />
-                <p>Diani & the Kenyan Coast</p>
-              </div>
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Queen Elizabeth.jpeg"
+        alt="Queen Elizabeth"
+        width={800}
+        height={600}
+      />
+      <p>Queen Elizabeth, Uganda</p>
+    </div>
 
-              <div className="destination-card">
-                <img
-                  src="/images/dry water.jpg"
-                  alt="Lamu"
-                />
-                <p>Lamu</p>
-              </div>
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Western Desert.jpeg"
+        alt="Western Desertt"
+        width={800}
+        height={600}
+      />
+      <p>Western Desert, Egypt</p>
+    </div>
 
-            </div>
-          </div>
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Okavango Delta3.jpeg"
+        alt="Okavango Delta"
+        width={800}
+        height={600}
+      />
+      <p>Okavango Delta, Botswana</p>
+    </div>
+
+  </div>
+
+</div>
         </section>
       )}
 

@@ -1,5 +1,7 @@
 import Icon from "../../icons";
 import { faLocationDot,faPersonHiking } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+
 
 const Namibia = () => {
   return (
@@ -35,51 +37,62 @@ const Namibia = () => {
       </div>
 
       <div className="destination-locations">
-        <div className="destination-cards">
-          <div className="destination-card">
-            <img
-              src="/images/lion.jpg"
-              alt="Maasai Mara"
-            />
-            <p>Maasai Mara</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/elephants-car.jpg"
-              alt="Amboseli"
-            />
-            <p>Amboseli</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/rhino.jpg"
-              alt="Laikipia and Lewa"
-            />
-            <p>Laikipia & Lewa</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/leo.jpg"
-              alt="Samburu"
-            />
-            <p>Samburu</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="images/hotair baloon.jpg"
-              alt="Diani and the Kenyan Coast"
-            />
-            <p>Diani & the Kenyan Coast</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/dry water.jpg"
-              alt="Lamu"
-            />
-            <p>Lamu</p>
-          </div>
-        </div>
-      </div>
+
+  <div className="destination-cards">
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Windhoek2.jpeg"
+        alt="Windhoek "
+        width={800}
+        height={600}
+      />
+      <p>Windhoek </p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Sossusvlei.jpeg"
+        alt="Sossusvlei"
+        width={800}
+        height={600}
+      />
+      <p>Sossusvlei</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Etosha.jpeg"
+        alt="Etosha"
+        width={800}
+        height={600}
+      />
+      <p>Etosha</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Damaraland.jpeg"
+        alt="Damaraland"
+        width={800}
+        height={600}
+      />
+      <p>Damaraland</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Skeleton Coast3.jpeg"
+        alt="Skeleton Coast"
+        width={800}
+        height={600}
+      />
+      <p>Skeleton Coast</p>
+    </div>
+
+  </div>
+
+</div>
     </section>
   )
 }

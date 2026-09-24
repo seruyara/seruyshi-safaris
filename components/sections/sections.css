@@ -180,13 +180,34 @@
    DESTINATION CARDS
 ========================= */
 
-.destination-cards {
+/* .destination-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     max-width: 1200px;
     margin: 0 auto;
+} */
+
+.destination-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
 }
+
+/* .destination-card {
+    position: relative;
+    height: 430px;
+    overflow: hidden;
+    border-radius: 4px;
+} */
+
+.destination-card {
+    position: relative;
+    height: 430px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
 
 
 /* =========================

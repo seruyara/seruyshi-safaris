@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Plansafari = () => {
   return (
-    <section className="plan-safari-section">
+    <section id="plan-safari" className="plan-safari-section">
        <Image
         src="/images/plan-safari/plan-safari.jpg"
         alt="Luxury safari experience in Africa"

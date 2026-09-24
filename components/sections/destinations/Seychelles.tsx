@@ -1,5 +1,7 @@
 import Icon from "../../icons";
 import { faLocationDot,faPersonHiking } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+
 
 const Seychelles = () => {
   return (
@@ -40,51 +42,62 @@ const Seychelles = () => {
       </div>
 
       <div className="destination-locations">
-        <div className="destination-cards">
-          <div className="destination-card">
-            <img
-              src="/images/lion.jpg"
-              alt="Maasai Mara"
-            />
-            <p>Maasai Mara</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/elephants-car.jpg"
-              alt="Amboseli"
-            />
-            <p>Amboseli</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/rhino.jpg"
-              alt="Laikipia and Lewa"
-            />
-            <p>Laikipia & Lewa</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/leo.jpg"
-              alt="Samburu"
-            />
-            <p>Samburu</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="images/hotair baloon.jpg"
-              alt="Diani and the Kenyan Coast"
-            />
-            <p>Diani & the Kenyan Coast</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/dry water.jpg"
-              alt="Lamu"
-            />
-            <p>Lamu</p>
-          </div>
-        </div>
-      </div>
+
+  <div className="destination-cards">
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Victoria.jpeg"
+        alt="Victoria"
+        width={800}
+        height={600}
+      />
+      <p>Victoria</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Mahé.jpeg"
+        alt="Mahé"
+        width={800}
+        height={600}
+      />
+      <p>Mahé</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Praslin3.jpeg"
+        alt="Praslin"
+        width={800}
+        height={600}
+      />
+      <p>Praslin</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/La Digue.jpeg"
+        alt="La Digue"
+        width={800}
+        height={600}
+      />
+      <p>La Digue</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Aldabra.jpeg"
+        alt="Aldabra"
+        width={800}
+        height={600}
+      />
+      <p>Aldabra</p>
+    </div>
+
+  </div>
+
+</div>
     </section>
   )
 }

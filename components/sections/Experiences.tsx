@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Experiences = () => {
   return (
-    <section className="experience-section">
+    <section id="experiences" className="experience-section">
 
   <div className="experience-intro">
 

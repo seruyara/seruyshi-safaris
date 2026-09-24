@@ -1,5 +1,7 @@
 import Icon from "../../icons";
 import { faLocationDot,faPersonHiking } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+
 
 const SouthAfrica = () => {
   return (
@@ -41,51 +43,52 @@ const SouthAfrica = () => {
       </div>
 
       <div className="destination-locations">
-        <div className="destination-cards">
-          <div className="destination-card">
-            <img
-              src="/images/lion.jpg"
-              alt="Maasai Mara"
-            />
-            <p>Maasai Mara</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/elephants-car.jpg"
-              alt="Amboseli"
-            />
-            <p>Amboseli</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/rhino.jpg"
-              alt="Laikipia and Lewa"
-            />
-            <p>Laikipia & Lewa</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/leo.jpg"
-              alt="Samburu"
-            />
-            <p>Samburu</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="images/hotair baloon.jpg"
-              alt="Diani and the Kenyan Coast"
-            />
-            <p>Diani & the Kenyan Coast</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/dry water.jpg"
-              alt="Lamu"
-            />
-            <p>Lamu</p>
-          </div>
-        </div>
-      </div>
+
+  <div className="destination-cards">
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Capetown.jpeg"
+        alt="Capetown"
+        width={800}
+        height={600}
+      />
+      <p>Capetown</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Kruger:Sabi Sand.jpeg"
+        alt="Kruger/Sabi Sand"
+        width={800}
+        height={600}
+      />
+      <p>Kruger/Sabi Sand</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Winelands.jpeg"
+        alt="Winelands"
+        width={800}
+        height={600}
+      />
+      <p>Winelands</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Garden Route2.jpeg"
+        alt="Garden Route"
+        width={800}
+        height={600}
+      />
+      <p>Garden Route</p>
+    </div>
+
+  </div>
+
+</div>
     </section>
   )
 }

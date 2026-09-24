@@ -10,7 +10,7 @@ const DestinationNav = ({
   return (
     <div className="destination-header">
 
-      <div className="destination-heading">
+      <div id="destinations" className="destination-heading">
         <h2>Destinations</h2>
         <p>Discover Africa's extraordinary places</p>
       </div>

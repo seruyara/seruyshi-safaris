@@ -1,5 +1,7 @@
 import Icon from "../../icons";
 import { faLocationDot,faPersonHiking } from "@fortawesome/free-solid-svg-icons";
+import Image from "next/image";
+
 
 const Tanzania = () => {
   return (
@@ -21,7 +23,7 @@ const Tanzania = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>6 Locations</p>
+          <p>4 Locations</p>
         </div>
 
         <div className="destination-stat">
@@ -40,52 +42,50 @@ const Tanzania = () => {
 
       </div>
 
-      <div className="destination-locations">
-        <div className="destination-cards">
-          <div className="destination-card">
-            <img
-              src="/images/lion.jpg"
-              alt="Maasai Mara"
-            />
-            <p>Maasai Mara</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/elephants-car.jpg"
-              alt="Amboseli"
-            />
-            <p>Amboseli</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/rhino.jpg"
-              alt="Laikipia and Lewa"
-            />
-            <p>Laikipia & Lewa</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/leo.jpg"
-              alt="Samburu"
-            />
-            <p>Samburu</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="images/hotair baloon.jpg"
-              alt="Diani and the Kenyan Coast"
-            />
-            <p>Diani & the Kenyan Coast</p>
-          </div>
-          <div className="destination-card">
-            <img
-              src="/images/dry water.jpg"
-              alt="Lamu"
-            />
-            <p>Lamu</p>
-          </div>
-        </div>
-      </div>
+     <div className="destination-locations">
+
+  <div className="destination-cards">
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Serengeti.jpeg"
+        alt="Serengeti"
+        width={800}
+        height={600}
+      />
+      <p>Serengeti</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Ngorongoro.jpeg"
+        alt="Ngorongoro"
+        width={800}
+        height={600}
+      />
+      <p>Ngorongoro</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Tarangire2.jpeg"
+        alt="Tarangire"
+        width={800}
+        height={600}
+      />
+      <p>Tarangire</p>
+    </div>
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Arusha.jpg"
+        alt="Arusha"
+        width={800}
+        height={600}
+      />
+      <p>Arusha</p>
+    </div>
+  </div>
+
+</div>
     </section>
   )
 }
