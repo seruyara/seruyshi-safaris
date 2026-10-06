@@ -4,6 +4,7 @@ import Destinations from "../components/sections/destinations/Destinations";
 import Homepage from "../components/sections/Homepage";
 import Plansafari from "../components/sections/Plansafari";
 import AboutUs from "../components/sections/AboutUs";
+import FAQ from "../components/sections/FAQ";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <Destinations/>
       <AboutUs/>
       <Experiences/>
+      <FAQ/>
       <Plansafari/>
       <Footer/>
     </main>

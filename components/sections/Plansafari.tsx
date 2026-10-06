@@ -46,10 +46,11 @@ const Plansafari = () => {
           <label htmlFor="contact">How can we reach you?</label>
 
           <input
-            type="text"
-            id="contact"
-            name="contact"
-            placeholder="Email or WhatsApp number"
+           type="email"
+           id="email"
+           name="email"
+           placeholder="Your email address"
+           required
           />
         </div>
 
