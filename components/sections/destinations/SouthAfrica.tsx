@@ -10,7 +10,7 @@ const SouthAfrica = () => {
         <h2>South Africa </h2>
         <p>
           A World Within One Country.Combine exceptional wildlife with cosmopolitan cities,
-          wine country, dramatic coastlines, and world-class hospitality. 
+          wine country, dramatic coastlines and world-class hospitality. 
           From a private safari in the Greater Kruger to Cape Town and the Cape Winelands, 
           South Africa is made for extraordinary journeys.
         </p>
@@ -23,7 +23,7 @@ const SouthAfrica = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>6 Locations</p>
+          <p>6 Locations & More</p>
         </div>
 
         <div className="destination-stat">
@@ -34,11 +34,6 @@ const SouthAfrica = () => {
           <h5>Experiences</h5>
           <p>Safari, City Tours & More</p>
         </div>
-
-        {/* <div className="destination-stat">
-          <h5>Included In</h5>
-          <p>Classic Kenyan Safari</p>
-        </div> */}
 
       </div>
 
@@ -58,12 +53,43 @@ const SouthAfrica = () => {
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/Kruger:Sabi Sand.jpeg"
+        src="/images/destinations/kruger .jpg"
         alt="Kruger/Sabi Sand"
         width={800}
         height={600}
       />
-      <p>Kruger/Sabi Sand</p>
+      <p>Kruger National Park</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Hermanus.jpg"
+        alt="Hermanus"
+        width={800}
+        height={600}
+      />
+      <p>Hermanus</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Eastern cape.jpg"
+        alt="Eastern Cape"
+        width={800}
+        height={600}
+      />
+      <p>Eastern Cape</p>
+    </div>
+
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Garden Route2.jpeg"
+        alt="Garden Route"
+        width={800}
+        height={600}
+      />
+      <p>Garden Route</p>
     </div>
 
     <div className="destination-card">
@@ -76,15 +102,6 @@ const SouthAfrica = () => {
       <p>Winelands</p>
     </div>
 
-    <div className="destination-card">
-      <Image
-        src="/images/destinations/Garden Route2.jpeg"
-        alt="Garden Route"
-        width={800}
-        height={600}
-      />
-      <p>Garden Route</p>
-    </div>
 
   </div>
 

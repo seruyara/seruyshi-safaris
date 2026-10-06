@@ -27,7 +27,7 @@ const AboutUs = () => {
 
        <div className="about-founder-image">
         <Image
-           src="/images/about-us/about-us.jpg"
+           src="/images/about-us/Aboutus3.jpg"
            alt="Founder of Seruyshi Signature Safaris"
             width={800}
           height={1000}

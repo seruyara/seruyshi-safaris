@@ -11,7 +11,7 @@ const Kenya = () => {
           The heart of the safari. Discover vast landscapes,
           incredible wildlife and unforgettable experiences.
           From the legendary Maasai Mara and the foothills of Mount Kenya to Amboseli,
-           Laikipia, Samburu, and the Indian Ocean coast,
+           Laikipia, Samburu and the Indian Ocean coast,
            Kenya offers an extraordinary combination of wildlife, landscapes, culture, and luxury.
 
         </p>
@@ -24,7 +24,7 @@ const Kenya = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>6 Locations</p>
+          <p>6 Locations & More</p>
         </div>
 
         <div className="destination-stat">
@@ -39,9 +39,20 @@ const Kenya = () => {
       
      <div className="destination-locations">
   <div className="destination-cards">
+
+  <div className="destination-card">
+      <Image
+        src="/images/destinations/Nairobi park.jpg"
+        alt="Nairobi"
+        width={800}
+        height={600}
+      />
+      <p>Nairobi National Park</p>
+    </div>
+
     <div className="destination-card">
       <Image
-        src="/images/destinations/lion.jpg"
+        src="/images/destinations/mara2.jpg"
         alt="Maasai Mara"
         width={800}
         height={600}
@@ -51,7 +62,7 @@ const Kenya = () => {
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/Amboseli.jpeg"
+        src="/images/destinations/Amboseli.jpg"
         alt="Amboseli"
         width={800}
         height={600}
@@ -61,22 +72,12 @@ const Kenya = () => {
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/samburu.jpeg"
+        src="/images/destinations/samburu2.jpg"
         alt="Samburu"
         width={800}
         height={600}
       />
       <p>Samburu</p>
-    </div>
-
-    <div className="destination-card">
-      <Image
-        src="/images/destinations/Laikipia2.jpeg"
-        alt="Laikipia"
-        width={800}
-        height={600}
-      />
-      <p>Laikipia</p>
     </div>
 
     <div className="destination-card">
@@ -89,14 +90,14 @@ const Kenya = () => {
       <p>Diani & the Kenyan Coast</p>
     </div>
 
-    <div className="destination-card">
+        <div className="destination-card">
       <Image
-        src="/images/destinations/Nairobi.jpeg"
-        alt="Nairobi"
+        src="/images/destinations/Laikipia2.jpeg"
+        alt="Laikipia"
         width={800}
         height={600}
       />
-      <p>Nairobi</p>
+      <p>Laikipia</p>
     </div>
 
   </div>

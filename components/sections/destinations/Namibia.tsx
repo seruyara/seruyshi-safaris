@@ -11,7 +11,7 @@ const Namibia = () => {
         <p>
           Where the Desert Meets the Wild.From the towering dunes of Sossusvlei
           to the rugged Skeleton Coast and wildlife-rich Etosha, Namibia offers extraordinary landscapes,
-          dramatic contrasts, and a sense of solitude that is increasingly rare.
+          dramatic contrasts and a sense of solitude that is increasingly rare.
         </p>
       </div>
 
@@ -22,7 +22,7 @@ const Namibia = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>6 Locations</p>
+          <p>6 Locations & More</p>
         </div>
 
         <div className="destination-stat">
@@ -71,6 +71,16 @@ const Namibia = () => {
     </div>
 
     <div className="destination-card">
+      <Image
+        src="/images/destinations/Camp Doros.jpg"
+        alt="Camp Doros"
+        width={800}
+        height={600}
+      />
+      <p>Camp Doros</p>
+    </div>
+
+     <div className="destination-card">
       <Image
         src="/images/destinations/Damaraland.jpeg"
         alt="Damaraland"

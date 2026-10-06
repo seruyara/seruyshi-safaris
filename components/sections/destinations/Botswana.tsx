@@ -9,9 +9,9 @@ const Botsawna = () => {
       <div className="destination-info">
         <h2>Botswana </h2>
         <p>
-          Untamed. Exclusive. Extraordinary.Explore the Okavango Delta, Chobe,
+          Untamed. Exclusive. Extraordinary.Explore the Okavango Delta, Chobe
           and the vast wilderness of Botswana through intimate safari experiences designed around exclusivity,
-          conservation, and exceptional wildlife encounters.
+          conservation and exceptional wildlife encounters.
         </p>
       </div>
 
@@ -40,14 +40,14 @@ const Botsawna = () => {
 
   <div className="destination-cards">
 
-    <div className="destination-card">
+       <div className="destination-card">
       <Image
-        src="/images/destinations/Maun.jpeg"
-        alt="Maun"
+        src="/images/destinations/Chobe.jpg"
+        alt="Chobe National Park"
         width={800}
         height={600}
       />
-      <p>Maun</p>
+      <p>Chobe National Park</p>
     </div>
 
     <div className="destination-card">
@@ -68,6 +68,36 @@ const Botsawna = () => {
         height={600}
       />
       <p>Moremi</p>
+    </div>
+
+     <div className="destination-card">
+      <Image
+        src="/images/destinations/Makgadikgadi.jpg"
+        alt="Makgadikgadi Pans"
+        width={800}
+        height={600}
+      />
+      <p>Makgadikgadi Pans</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Shakawe.jpg"
+        alt="Shakawe"
+        width={800}
+        height={600}
+      />
+      <p>Shakawe</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Savuti.jpg"
+        alt="Maun"
+        width={800}
+        height={600}
+      />
+      <p>Savuti</p>
     </div>
 
   </div>

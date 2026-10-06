@@ -86,6 +86,7 @@ img {
 
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
     padding: 1.5rem clamp(1.5rem, 5vw, 4rem);
 
@@ -94,6 +95,7 @@ img {
         backdrop-filter 0.4s ease,
         box-shadow 0.4s ease;
 }
+
 
 .site-header.scrolled {
     position: fixed;
@@ -111,6 +113,7 @@ img {
 
 .header-logo {
     flex-shrink: 1;
+    flex: 0 1 auto;
 }
 
 .nav-logo {
@@ -122,16 +125,19 @@ img {
 
 
 .nav-container {
-    margin-left: auto;
-    align-items: center;
+    flex: 1 1 auto;
+    min-width: 0;
+    margin-left: clamp(1rem, 3vw, 2.5rem);
 }
 
 
 .nav-container ul {
     display: flex;
     align-items: center;
-    gap: clamp(1rem, 2.5vw, 2.2rem);
+    justify-content: flex-end;
+    gap: clamp(0.6rem, 2vw, 2.2rem);
 
+    width: 100%;
     margin: 0;
     padding: 0;
 
@@ -141,22 +147,17 @@ img {
 
 .nav-container a {
     position: relative;
-
     display: inline-block;
-
     padding: 0.5rem 0;
-
     color: white;
-
     font-family: var(--font-manrope);
-    font-size: clamp(0.62rem, 0.7vw, 0.72rem);
+    font-size: clamp(0.55rem, 0.65vw, 0.7rem);
     font-weight: 500;
-
-    letter-spacing: 0.12rem;
+    letter-spacing: clamp(0.04rem, 0.08vw, 0.1rem);
     text-transform: uppercase;
     text-decoration: none;
-
     transition: color 0.3s ease;
+    white-space: nowrap;
 }
 
 

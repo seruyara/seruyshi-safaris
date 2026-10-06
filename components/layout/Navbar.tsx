@@ -27,6 +27,14 @@ const Navbar = () => {
           </li>
 
           <li>
+            <a href="#our-process">Our Process</a>
+          </li>
+
+          <li>
+            <a href="#experiences">FAQ</a>
+          </li>
+
+          <li>
             <a
               href="mailto:hello@seruyshi.com"
               className="contact-button"
@@ -67,6 +75,18 @@ const Navbar = () => {
           <li>
             <a href="#experiences" onClick={closeMenu}>
               Experiences
+            </a>
+          </li>
+
+          <li>
+            <a href="#our-process" onClick={closeMenu}>
+              Our Process
+            </a>
+          </li>
+
+          <li>
+            <a href="#experiences" onClick={closeMenu}>
+              FAQ
             </a>
           </li>
 

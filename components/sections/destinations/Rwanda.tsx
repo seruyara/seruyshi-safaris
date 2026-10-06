@@ -22,7 +22,7 @@ const Rwanda = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>6 Locations</p>
+          <p>6 Locations & More</p>
         </div>
 
         <div className="destination-stat">
@@ -57,7 +57,7 @@ const Rwanda = () => {
         width={800}
         height={600}
       />
-      <p>Akagera</p>
+      <p>Akagera National park</p>
     </div>
 
     <div className="destination-card">
@@ -67,19 +67,38 @@ const Rwanda = () => {
         width={800}
         height={600}
       />
-      <p>Nyungwe</p>
+      <p>Nyungwe National Park</p>
+    </div>
+
+     <div className="destination-card">
+      <Image
+        src="/images/destinations/lake Kivu.jpg"
+        alt="Lake Kivu"
+        width={800}
+        height={600}
+      />
+      <p> Lake Kivu</p>
     </div>
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/Kigali2.jpeg"
+        src="/images/destinations/Gishwati-Mukura-National-Park.jpg"
+        alt="Gishwati Mukura National Park"
+        width={800}
+        height={600}
+      />
+      <p> Gishwati Mukura National Park</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Kigali3.jpg"
         alt="Kigali"
         width={800}
         height={600}
       />
       <p> Kigali</p>
     </div>
-
 
   </div>
 

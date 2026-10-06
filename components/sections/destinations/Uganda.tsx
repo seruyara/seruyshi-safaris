@@ -10,9 +10,9 @@ const Uganda = () => {
         <h2>Uganda</h2>
         <p>
           The Pearl of Africa. Discover lush forests, 
-          spectacular landscapes, mountain gorillas, chimpanzees, 
+          spectacular landscapes, mountain gorillas, chimpanzees 
           and intimate wildlife experiences. Uganda offers a more adventurous 
-          extraordinary combination of wildlife, landscapes, culture, and luxury.
+          extraordinary combination of wildlife, landscapes, culture, luxury
            and deeply immersive side of Africa 
        
         </p>
@@ -25,7 +25,7 @@ const Uganda = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>5 Locations</p>
+          <p>6 Locations & More</p>
         </div>
 
         <div className="destination-stat">
@@ -44,12 +44,12 @@ const Uganda = () => {
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/Entebe.jpeg"
-        alt="Entebe"
+        src="/images/destinations/Entebbe.jpeg"
+        alt="Entebbe"
         width={800}
         height={600}
       />
-      <p>Entebe</p>
+      <p>Entebbe</p>
     </div>
 
     <div className="destination-card">
@@ -85,6 +85,16 @@ const Uganda = () => {
 
     <div className="destination-card">
       <Image
+        src="/images/destinations/kidepo valley.jpg"
+        alt="Kidepo Valley National Park"
+        width={800}
+        height={600}
+      />
+      <p>Kidepo Valley National Park</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
         src="/images/destinations/Kibale.jpeg"
         alt="Kibale"
         width={800}
@@ -92,6 +102,7 @@ const Uganda = () => {
       />
       <p>Kibale</p>
     </div>
+
 
   </div>
 

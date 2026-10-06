@@ -10,7 +10,7 @@ const Seychelles = () => {
         <h2>Seychelles </h2>
         <p>
           Barefoot Luxury in Paradise.Escape to a world of white-sand beaches, turquoise waters,
-          private island retreats, and secluded luxury.
+          private island retreats and secluded luxury.
           Seychelles is the perfect finale to an African adventure or an unforgettable destination in its own right.
         </p>
       </div>
@@ -22,7 +22,7 @@ const Seychelles = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>6 Locations</p>
+          <p>6 Locations & More</p>
         </div>
 
         <div className="destination-stat">
@@ -77,7 +77,7 @@ const Seychelles = () => {
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/La Digue.jpeg"
+        src="/images/destinations/la digue.jpg"
         alt="La Digue"
         width={800}
         height={600}
@@ -86,6 +86,16 @@ const Seychelles = () => {
     </div>
 
     <div className="destination-card">
+      <Image
+        src="/images/destinations/Alphonse Island.jpg"
+        alt="Alphonse Island"
+        width={800}
+        height={600}
+      />
+      <p>Alphonse Island</p>
+    </div>
+
+        <div className="destination-card">
       <Image
         src="/images/destinations/Aldabra.jpeg"
         alt="Aldabra"

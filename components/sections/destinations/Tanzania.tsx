@@ -10,9 +10,9 @@ const Tanzania = () => {
         <h2>Tanzania</h2>
         <p>
           Where the Wild Roams Free. Experience the vast Serengeti,
-          the Ngorongoro Crater, Tarangire, and the beaches of Zanzibar.
+          the Ngorongoro Crater, Tarangire and the beaches of Zanzibar.
           Tanzania is a destination for remarkable wildlife encounters, 
-          dramatic landscapes, and timeless safari experiences.
+          dramatic landscapes and timeless safari experiences.
         </p>
       </div>
 
@@ -23,7 +23,7 @@ const Tanzania = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>4 Locations</p>
+          <p>6 Locations & More</p>
         </div>
 
         <div className="destination-stat">
@@ -47,7 +47,7 @@ const Tanzania = () => {
   <div className="destination-cards">
     <div className="destination-card">
       <Image
-        src="/images/destinations/Serengeti.jpeg"
+        src="/images/destinations/serengeti3.jpg"
         alt="Serengeti"
         width={800}
         height={600}
@@ -57,7 +57,7 @@ const Tanzania = () => {
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/Ngorongoro.jpeg"
+        src="/images/destinations/Ngorongoro3.jpg"
         alt="Ngorongoro"
         width={800}
         height={600}
@@ -74,6 +74,26 @@ const Tanzania = () => {
       />
       <p>Tarangire</p>
     </div>
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Zanzibar.jpg"
+        alt="Zanzibar"
+        width={800}
+        height={600}
+      />
+      <p>Zanzibar</p>
+    </div>
+
+    <div className="destination-card">
+      <Image
+        src="/images/destinations/Nyerera national park.jpg"
+        alt="Nyerere National Park"
+        width={800}
+        height={600}
+      />
+      <p>Nyerere National Park</p>
+    </div>
+
     <div className="destination-card">
       <Image
         src="/images/destinations/Arusha.jpg"

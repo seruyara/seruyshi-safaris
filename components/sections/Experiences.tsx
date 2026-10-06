@@ -64,7 +64,7 @@ const Experiences = () => {
     
 
   </div>
- <div className="experience-process-header">
+ <div className="experience-process-header" id="our-process" >
   <p className="section-label">OUR PROCESS</p>
 
   <h3>

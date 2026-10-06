@@ -58,7 +58,7 @@ const Destinations = () => {
               />
 
               <h5>Places to Visit</h5>
-              <p>9 Countries</p>
+              <p>9 Countries & more</p>
             </div>
 
             <div className="destination-stat">
@@ -89,8 +89,8 @@ const Destinations = () => {
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/Masaai Mara2.jpg"
-        alt="Amboseli"
+        src="/images/destinations/mara.jpg"
+        alt="masaai mara"
         width={800}
         height={600}
       />
@@ -119,7 +119,7 @@ const Destinations = () => {
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/Western Desert.jpeg"
+        src="/images/destinations/western desert.jpg"
         alt="Western Desertt"
         width={800}
         height={600}

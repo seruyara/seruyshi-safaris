@@ -22,7 +22,7 @@ const Egypt = () => {
                className="destination-stat-icon"
           />
           <h5>Places to Visit</h5>
-          <p>5 Locations</p>
+          <p>6 Locations & More</p>
         </div>
 
         <div className="destination-stat">
@@ -62,12 +62,12 @@ const Egypt = () => {
 
     <div className="destination-card">
       <Image
-        src="/images/destinations/Luxor.jpeg"
-        alt="Luxor"
+        src="/images/destinations/Aswan.jpg"
+        alt="Aswan"
         width={800}
         height={600}
       />
-      <p>Luxor</p>
+      <p>Aswan</p>
     </div>
 
     <div className="destination-card">
@@ -80,6 +80,17 @@ const Egypt = () => {
       <p>Nile</p>
     </div>
 
+     <div className="destination-card">
+      <Image
+        src="/images/destinations/Luxor.jpeg"
+        alt="Luxor"
+        width={800}
+        height={600}
+      />
+      <p>Luxor</p>
+    </div>
+
+
     <div className="destination-card">
       <Image
         src="/images/destinations/Western Desert2.jpeg"
@@ -89,6 +100,7 @@ const Egypt = () => {
       />
       <p>Western Desert</p>
     </div>
+
 
   </div>
 
